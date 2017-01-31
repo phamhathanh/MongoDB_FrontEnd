@@ -16,23 +16,11 @@ module.exports = function(config) {
     // list of files / patterns to load in the browser
     files: [
       'node_modules/angular/angular.min.js',
+      'node_modules/angular-route/angular-route.min.js',
       'node_modules/angular-mocks/angular-mocks.js',
 
       'node_modules/jquery/dist/jquery.min.js',
-
-      'node_modules/cesium/Build/CesiumUnminified/Cesium.js',
-
-      'node_modules/angular-animate/angular-animate.min.js',
-      'node_modules/angular-aria/angular-aria.min.js',
-      'node_modules/angular-material/angular-material.min.js',
-      'node_modules/angular-route/angular-route.min.js',
-
       'node_modules/bootstrap/dist/js/bootstrap.min.js',
-      'node_modules/jszip/dist/jszip.min.js',
-
-      'https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js',
-      'assets/js/slider.js',
-
 
       'app/*.module.js',
       'app/**/*.module.js',
